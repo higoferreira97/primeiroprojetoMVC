@@ -2,10 +2,11 @@
 {
     public class Aluno
     {
-        public int Matricula { get; set; }
+        public int Id { get; set; }
+        public string Matricula { get; set; }
         public string Nome { get; set; }
         public string Cpf { get; set; }
         public string DataDeNascimento { get; set; }
-        public string Endereço { get; set; }
+        public string Endereco { get; set; }
     }
 }
