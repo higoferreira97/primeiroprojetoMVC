@@ -13,7 +13,7 @@ namespace primeiroprojetoMVC.Data.Repositorio
             _bancoContexto = bancoContexto;
         }
 
-        public List<Aluno> BuscarAlunos()
+        public List<Aluno> BuscarAluno()
         {
             return _bancoContexto.Aluno.ToList();
         }

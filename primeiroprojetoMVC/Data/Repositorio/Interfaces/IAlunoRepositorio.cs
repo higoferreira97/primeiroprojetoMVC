@@ -4,6 +4,10 @@ namespace primeiroprojetoMVC.Data.Repositorio.Interfaces
 {
     public interface IAlunoRepositorio
     {
-        List<Aluno> BuscarAlunos();
+        //string? BuscarAluno();
+        List<Aluno> BuscarAluno();
+        //string? BuscarAlunos();
     }
 }
+
+//Usei no senac
