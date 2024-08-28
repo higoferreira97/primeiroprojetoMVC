@@ -18,6 +18,12 @@ namespace primeiroprojetoMVC.Controllers
             var aluno = _alunorepositorio.BuscarAluno();
             return View(aluno);
         }
+
+        public IActionResult AdicionarAluno() 
+        {
+            return View();
+        }
+
     }
 
    
