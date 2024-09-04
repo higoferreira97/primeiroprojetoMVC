@@ -6,7 +6,10 @@ namespace primeiroprojetoMVC.Data.Repositorio.Interfaces
     {
         
         List<Aluno> BuscarAluno();
-        
+
+        void InserirAluno(Aluno aluno);
+
+
     }
 }
 
