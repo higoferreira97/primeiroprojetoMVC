@@ -9,6 +9,16 @@ namespace primeiroprojetoMVC.Data.Repositorio.Interfaces
 
         void InserirAluno(Aluno aluno);
 
+        Aluno BuscarId(int id);
+
+        void EditarAluno(Aluno aluno);
+
+
+        void ApagarAluno(Aluno aluno);
+
+
+
+
 
     }
 }
