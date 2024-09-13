@@ -51,11 +51,7 @@ namespace primeiroprojetoMVC.Controllers
             return RedirectToAction("Index");
         }
         
-        public IActionResult Apagar(int id)
-        {
-            var aluno = _alunorepositorio.BuscarId(id);
-            return View(aluno);
-        }
+       
 
         public IActionResult ApagarAluno(Aluno aluno) 
         {

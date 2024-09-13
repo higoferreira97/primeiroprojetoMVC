@@ -23,12 +23,12 @@ namespace primeiroprojetoMVC.Data.Mapeamento
 }
 
 
-//CREATE TABLE Aluno(
-//Id int identity(1,1) NOT NULL,
-//Matricula VARCHAR(30),
-//Nome VARCHAR(40),
-//Cpf VARCHAR(14),
-//DataDeNascimento DATE,
-//Endereco VARCHAR(50)
-//PRIMARY KEY(Id)
+//create table aluno(
+//id int identity(1,1) not null,
+//matricula varchar(30),
+//nome varchar(40),
+//cpf varchar(14),
+//datadenascimento date,
+//endereco varchar(50)
+//primary key(id)
 //)
