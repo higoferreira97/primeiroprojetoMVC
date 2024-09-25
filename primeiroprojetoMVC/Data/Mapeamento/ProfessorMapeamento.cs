@@ -15,7 +15,7 @@ namespace primeiroprojetoMVC.Data.Mapeamento
             builder.Property(t => t.Nome).HasColumnType("varchar(40)");
             builder.Property(t => t.Disciplina).HasColumnType("varchar(20)");
             builder.Property(t => t.DataNascimento).HasColumnType("DateOnly");
-            builder.Property(t => t.Sala).HasColumnType("varchar(15)");
+           
 
         }
     }

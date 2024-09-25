@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "_LayoutLogin";
+}
+
+<form method="post" asp-controller="Usuario" asp-action="ValidarLogin">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Usuário</label>
+        <input type="email" class="form-control" id="inputEmail4" name="email" required>
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputPassword4" name="senha" required>
+    </div>
+
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Entrar</button>
+    </div>
+
+
+    @* Mensagem de erro *@
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div style="color: red;">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</form>
