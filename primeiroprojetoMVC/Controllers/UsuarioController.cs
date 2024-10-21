@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using primeiroprojetoMVC.Data.Repositorio;
 using primeiroprojetoMVC.Data.Repositorio.Interfaces;
 
 namespace primeiroprojetoMVC.Controllers

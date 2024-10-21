@@ -10,7 +10,7 @@ namespace primeiroprojetoMVC.Data
         {
 
         }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AlunoMapeamento());

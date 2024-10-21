@@ -1,16 +1,16 @@
 ﻿@{
     Layout = "_LayoutLogin";
 }
-
-<form method="post" asp-controller="Usuario" asp-action="ValidarLogin">
-    <div class="col-md-6">
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<form  class="login" method="post" asp-controller="Usuario" asp-action="ValidarLogin">
+    <div class="col-md-6 justify-content-center">
         <label for="inputEmail4" class="form-label">Usuário</label>
         <input type="email" class="form-control" id="inputEmail4" name="email" required>
         <label for="inputPassword4" class="form-label">Senha</label>
         <input type="password" class="form-control" id="inputPassword4" name="senha" required>
     </div>
 
-    <div class="col-12">
+    <div class="mt-2 text-center">
         <button class="btn btn-primary" type="submit">Entrar</button>
     </div>
 
